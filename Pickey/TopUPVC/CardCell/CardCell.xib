@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CardCell" customModule="Pickey" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="539" height="48"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="539" height="48"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXm-tV-aQS">
+                        <rect key="frame" x="0.0" y="0.0" width="539" height="48"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="74w-lx-DIc" customClass="ShadowView" customModule="Pickey" customModuleProvider="target">
+                                <rect key="frame" x="12" y="5" width="62" height="38"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBE-XJ-PIt">
+                                        <rect key="frame" x="11.5" y="7" width="39" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="39" id="FDz-6u-l0K"/>
+                                            <constraint firstAttribute="height" constant="24" id="rRa-5f-WZR"/>
+                                        </constraints>
+                                        <state key="normal" title="AED 0" image="visa">
+                                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="VBE-XJ-PIt" firstAttribute="centerY" secondItem="74w-lx-DIc" secondAttribute="centerY" id="KU6-hE-oXX"/>
+                                    <constraint firstAttribute="height" constant="38" id="LDe-W1-iJY"/>
+                                    <constraint firstAttribute="width" constant="62" id="h6S-fA-gW3"/>
+                                    <constraint firstItem="VBE-XJ-PIt" firstAttribute="centerX" secondItem="74w-lx-DIc" secondAttribute="centerX" id="tgg-ou-rN9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="74w-lx-DIc" firstAttribute="leading" secondItem="fXm-tV-aQS" secondAttribute="leading" constant="12" id="0WE-kW-lUu"/>
+                            <constraint firstItem="74w-lx-DIc" firstAttribute="top" secondItem="fXm-tV-aQS" secondAttribute="top" constant="5" id="FI6-62-xav"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="fXm-tV-aQS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Gma-2p-TSO"/>
+                <constraint firstItem="fXm-tV-aQS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cwL-7E-ZtT"/>
+                <constraint firstAttribute="bottom" secondItem="fXm-tV-aQS" secondAttribute="bottom" id="d89-jD-r1R"/>
+                <constraint firstAttribute="trailing" secondItem="fXm-tV-aQS" secondAttribute="trailing" id="ePd-nb-oZG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="539" height="55"/>
+            <connections>
+                <outlet property="View_Card" destination="74w-lx-DIc" id="WJp-u6-RvD"/>
+            </connections>
+            <point key="canvasLocation" x="135.50724637681159" y="148.32589285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="visa" width="512" height="512"/>
+    </resources>
+</document>

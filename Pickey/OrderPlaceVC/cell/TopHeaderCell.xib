@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="POPPINS-MEDIUM.TTF">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="POPPINS-REGULAR.TTF">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="252" id="KGk-i7-Jjw" customClass="TopHeaderCell" customModule="Pickey" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="252"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="252"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vvz-ah-t6d">
+                        <rect key="frame" x="0.0" y="0.0" width="386" height="252"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="order_placed" translatesAutoresizingMaskIntoConstraints="NO" id="nZR-70-Vet">
+                                <rect key="frame" x="158" y="32" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="QJK-DV-y4m"/>
+                                    <constraint firstAttribute="height" constant="70" id="zf6-ig-Pzp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank You" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1p-Dz-KSN">
+                                <rect key="frame" x="153.5" y="110" width="79.5" height="25"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Yok-60-ytj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
+                                <color key="textColor" red="0.91372549020000005" green="0.41176470590000003" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for your order. we have sent your order details to kitchen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jk4-pS-ihd">
+                                <rect key="frame" x="50" y="136" width="286" height="43"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                <color key="textColor" red="0.3096283078" green="0.31369566920000003" blue="0.31764140730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Summary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbG-q0-ygL">
+                                <rect key="frame" x="25" y="201" width="346" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="YIG-SI-Bhd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                <color key="textColor" red="0.91372549020000005" green="0.41176470590000003" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Handi Kitchen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMT-fA-fyv">
+                                <rect key="frame" x="25" y="223" width="346" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="Gp1-Nd-6Nn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.96862745098039216" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="C1p-Dz-KSN" firstAttribute="centerX" secondItem="Vvz-ah-t6d" secondAttribute="centerX" id="3Be-B8-TZM"/>
+                            <constraint firstItem="Jk4-pS-ihd" firstAttribute="leading" secondItem="Vvz-ah-t6d" secondAttribute="leading" constant="50" id="3eh-dN-83I"/>
+                            <constraint firstAttribute="trailing" secondItem="EbG-q0-ygL" secondAttribute="trailing" constant="15" id="8dA-ur-I3U"/>
+                            <constraint firstItem="nZR-70-Vet" firstAttribute="top" secondItem="Vvz-ah-t6d" secondAttribute="top" constant="32" id="CYO-07-yyS"/>
+                            <constraint firstItem="EbG-q0-ygL" firstAttribute="top" secondItem="Jk4-pS-ihd" secondAttribute="bottom" constant="22" id="CZs-vb-Dho"/>
+                            <constraint firstAttribute="trailing" secondItem="Jk4-pS-ihd" secondAttribute="trailing" constant="50" id="CeW-dh-prM"/>
+                            <constraint firstAttribute="trailing" secondItem="RMT-fA-fyv" secondAttribute="trailing" constant="15" id="IEl-kk-VPU"/>
+                            <constraint firstItem="nZR-70-Vet" firstAttribute="centerX" secondItem="Vvz-ah-t6d" secondAttribute="centerX" id="NbQ-b3-iZV"/>
+                            <constraint firstItem="RMT-fA-fyv" firstAttribute="leading" secondItem="Vvz-ah-t6d" secondAttribute="leading" constant="25" id="Sjs-c8-Hu9"/>
+                            <constraint firstItem="Jk4-pS-ihd" firstAttribute="top" secondItem="C1p-Dz-KSN" secondAttribute="bottom" constant="1" id="TFB-gb-yll"/>
+                            <constraint firstItem="RMT-fA-fyv" firstAttribute="top" secondItem="EbG-q0-ygL" secondAttribute="bottom" constant="7" id="elx-t3-NhG"/>
+                            <constraint firstItem="EbG-q0-ygL" firstAttribute="leading" secondItem="Vvz-ah-t6d" secondAttribute="leading" constant="25" id="kNu-Qm-mRe"/>
+                            <constraint firstItem="C1p-Dz-KSN" firstAttribute="top" secondItem="nZR-70-Vet" secondAttribute="bottom" constant="8" id="vKL-fS-9o1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Vvz-ah-t6d" secondAttribute="trailing" id="71C-9k-Fzc"/>
+                    <constraint firstItem="Vvz-ah-t6d" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VAS-gL-4rL"/>
+                    <constraint firstItem="Vvz-ah-t6d" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oqL-K5-oFz"/>
+                    <constraint firstAttribute="bottom" secondItem="Vvz-ah-t6d" secondAttribute="bottom" id="psl-UK-Cty"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblRestaurentName" destination="RMT-fA-fyv" id="gYE-Vg-pUd"/>
+            </connections>
+            <point key="canvasLocation" x="95.652173913043484" y="103.79464285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="order_placed" width="72.5" height="72.5"/>
+    </resources>
+</document>

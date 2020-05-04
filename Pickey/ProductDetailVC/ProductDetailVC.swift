@@ -217,7 +217,7 @@ class ProductDetailVC: UIViewController,UITableViewDelegate,UITableViewDataSourc
             self.planID = DictPlanList.valueForNullableKey(key: kId)
             self.planday = DictPlanList.valueForNullableKey(key: kPlan)
             
-            let alertView = UIAlertController(title: "You would like to select another menu for remain plan's day?", message: "", preferredStyle: .alert)
+            let alertView = UIAlertController(title: "Please select the rest of the meals to complete your subscription plan?", message: "", preferredStyle: .alert)
             alertView.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
                 switch action.style{
                 case .default:
@@ -528,7 +528,7 @@ class ProductDetailVC: UIViewController,UITableViewDelegate,UITableViewDataSourc
             }
             cell.btnDropDown.addTarget(self, action: #selector(methodDropDownAction(_:)), for: .touchUpInside)
             cell.btnBack.addTarget(self, action: #selector(methodBackBtnAction(_:)), for: .touchUpInside)
-            cell.btnCart.alpha = 0.0
+            //cell.btnCart.alpha = 0.0
             cell.btnCart.addTarget(self, action: #selector(methodAddCart(_:)), for: .touchUpInside)
             
             return cell

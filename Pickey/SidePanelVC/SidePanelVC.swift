@@ -15,8 +15,8 @@ class SidePanelVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     @IBOutlet var tblVW: UITableView!
     
     //MARK:- Variables
-    var arrTitle = ["Kitchen List", "My Orders", "My Profile", "Wallet", "Invite Friends", "Rate & Review", "Notifications", "More"]  //,"Meals"
-    var arrImg = ["more", "My_orders", "my_profile", "wallet", "invite_friends", "rate_review", "notification", "more"]  //,"meal"
+    var arrTitle = ["Kitchen List", "My Orders", "My Profile", "Wallet", "Invite Friends", "Rate & Review", "Notifications","Donate", "More"]  //,"Meals"
+    var arrImg = ["more", "My_orders", "my_profile", "wallet", "invite_friends", "rate_review", "notification","more", "more"]  //,"meal"
     var strImgUrl = ""
     var strName  = ""
     
@@ -334,8 +334,17 @@ class SidePanelVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 }
                 
                 break
-                
             case 7:
+                if isNavigationFrom == "isFromWelcomeVC" || isNavigationFrom == "isFromSkipNow"
+                {
+                    let alert = UIAlertController(title: "", message: kUnAuthenticateUser, preferredStyle: .alert )
+                                       let actionAllow = UIAlertAction(title: "Yes", style: .default) { alert in
+                                       }
+                                       alert.addAction(actionAllow)
+                                       self.present(alert, animated: true, completion: nil)
+                }
+               break
+            case 8:
                 if isNavigationFrom == "isFromWelcomeVC" || isNavigationFrom == "isFromSkipNow"
                 {
                     let alert = UIAlertController(title: "", message: kUnAuthenticateUser, preferredStyle: .alert )

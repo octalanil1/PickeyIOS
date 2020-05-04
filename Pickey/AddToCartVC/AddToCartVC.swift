@@ -217,7 +217,7 @@
             let dict = ["cart_id":cart_id, "kitchen_id":kitchen_id,"kitchen_category_id":kitchen_category_id,"kitchen_menu_id":kitchen_menu_id,"request_type":request_type]
             
             
-            self.showDoubleButtonAlert(title: kAppName, message: "You want to change set menu?", action1: "NO", action2: "YES", completion1: {
+            self.showDoubleButtonAlert(title: kAppName, message: "Would you like to replace this item?", action1: "NO", action2: "YES", completion1: {
                 
                 
             }) {

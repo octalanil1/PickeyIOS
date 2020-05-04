@@ -524,7 +524,7 @@ class KitchenListVC: UIViewController, UITableViewDataSource, UITableViewDelegat
     {
         if collectionView.tag == 101
         {
-            return CGSize(width: collectionView.frame.width/7, height: 45)
+            return CGSize(width: collectionView.frame.width/8.5, height: 45)
         }
         else
         {
@@ -672,7 +672,15 @@ class KitchenListVC: UIViewController, UITableViewDataSource, UITableViewDelegat
                 {
                     KitchenCell.btnAddToCart.isHidden = true
                 }else{
-                    KitchenCell.btnAddToCart.isHidden = false
+//                    if dictKitchenMenu.valueForNullableKey(key: kReplace) == "1"
+//                    {
+//                        KitchenCell.btnAddToCart.isHidden = true
+//                    }
+//                    else
+//                    {
+                        KitchenCell.btnAddToCart.isHidden = false
+                   // }
+                    
                 }
             }
            

@@ -72,7 +72,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UINavigationControllerDel
         formattedDate = format.string(from: date)
         
         if UserDefaults.standard.object(forKey: kCurrentUser) != nil &&
-            UserDefaults.standard.object(forKey: kLoginCheck) != nil && UserDefaults.standard.object(forKey: kLoginCheck) as! String == "Yes"
+            UserDefaults.standard.object(forKey: kLoginCheck) != nil && UserDefaults.standard.object(forKey: kIsRemeber) as! String == "Yes"
         {
             self.currentLoginUser = self.getLoginUser()
             self.showtabbar()

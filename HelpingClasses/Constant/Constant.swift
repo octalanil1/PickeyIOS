@@ -264,6 +264,7 @@ let kCartId             = "cart_id"
 let kCartMenuId         = "cart_menu_id"
 let kKitchenCategoryName          = "kitchen_category_name"
 let kOrderPlan          = "order_plan"
+let kReplace            = "is_replace"
 //Meal
 //let kItemName           = "food_type_name"
 let kItemPrice          = "item_price"

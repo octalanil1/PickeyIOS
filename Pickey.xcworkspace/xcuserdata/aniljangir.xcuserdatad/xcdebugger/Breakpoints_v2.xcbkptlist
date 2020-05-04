@@ -84,14 +84,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "426A1935-A745-4FFF-8FD6-2085FB3FAFD5 - 98394c0b67cb86c1"
+                  uuid = "426A1935-A745-4FFF-8FD6-2085FB3FAFD5 - 2c3e6f736c772ef7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Pickey.AddNewCardVC.methodPlaceOrderApi(tokenId: Swift.String) -&gt; ()"
                   moduleName = "Pickey"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aniljangir/Desktop/Github/Pickey/Pickey/AddNewCardVC/AddNewCardVC.swift"
+                  urlString = "file:///Users/aniljangir/Desktop/Github/PickeyIOS/Pickey/AddNewCardVC/AddNewCardVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "360"
@@ -99,14 +99,14 @@
                   offsetFromSymbolStart = "35">
                </Location>
                <Location
-                  uuid = "426A1935-A745-4FFF-8FD6-2085FB3FAFD5 - 8d567c4c4ba03b3f"
+                  uuid = "426A1935-A745-4FFF-8FD6-2085FB3FAFD5 - 39515f34401c9309"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; () in Pickey.AddNewCardVC.methodPlaceOrderApi(tokenId: Swift.String) -&gt; ()"
                   moduleName = "Pickey"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aniljangir/Desktop/Github/Pickey/Pickey/AddNewCardVC/AddNewCardVC.swift"
+                  urlString = "file:///Users/aniljangir/Desktop/Github/PickeyIOS/Pickey/AddNewCardVC/AddNewCardVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "362"
